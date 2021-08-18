@@ -1,0 +1,43 @@
+body {
+    background-color: lightgray;
+    font-family: cursive;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+.row1 {
+    background-color: lightskyblue;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+.row2{
+    background-color:plum;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}  
+
+.row3{
+    background-color: white;;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+.col1, .col2, .col3 {
+    margin: 20px;
+}
+
+.row1, .row2, .row3{
+    margin: 5px;
+}
